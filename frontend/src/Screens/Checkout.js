@@ -5,7 +5,7 @@ import { Elements, CardElement, useStripe, useElements } from '@stripe/react-str
 import '../css/Checkout.css';
 
 // Load Stripe with your public key
-const stripePromise = loadStripe('pk_test_51QLSOBEbMNQMsrvHVDmrj3HXXj0VR8rElQDkp8qrSozLNGsSA7xfdQDEKpUjy0XhA4WI4KFx0rLScIE5ZrfXzzqx00T72QTWgU');
+const stripePromise = loadStripe('YOUR_STRIPE_API_KEY');
 
 function Checkout() {
   const location = useLocation();

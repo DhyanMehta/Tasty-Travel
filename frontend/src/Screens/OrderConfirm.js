@@ -10,7 +10,7 @@ function OrderConfirmed() {
   const mapRef = useRef(null);
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
-    googleMapsApiKey: 'AIzaSyDGaO6DdRlV_-nKerXOU63XEEFGSkIW54w',
+    googleMapsApiKey: 'YOUR_Google_API_KEY',
   })
 
   useEffect(() => {
