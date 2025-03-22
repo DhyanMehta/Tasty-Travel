@@ -8,7 +8,7 @@ const app = express();
 const PORT = 5000;
 
 // Initialize Stripe with your secret key
-const stripeSecretKey = 'sk_test_51QLSOBEbMNQMsrvHuqg7mQavrcvDTHscpdGPhCQ3PDDnHi6MtkTvqfO3L9Z4TEf2nEOrTKHWSqkpQQPng050U63y00CiFFpUeV';
+const stripeSecretKey = 'YOUR_STRIPE_SECRET_KEY';
 const stripeInstance = stripe(stripeSecretKey);
 
 mongoDB();

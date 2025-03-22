@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const mongoURI = 'mongodb+srv://user1:user1@cluster0.lymbh.mongodb.net/'
+const mongoURI = 'YOUR_MONGODB_URI'
 const mongoDB = async () => {
     await mongoose.connect(mongoURI, { useNewUrlParser: true }, async (err, result) => {
         if (err) console.log("---", err)
