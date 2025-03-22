@@ -1,3 +1,4 @@
+Tasty Travel 🍽️🚀
 Tasty Travel is a MERN stack web application that allows users to order food online and book tables at restaurants with ease. It simplifies restaurant discovery, ordering, and reservations for a seamless dining experience.
 
 Features:
@@ -17,3 +18,4 @@ Database: MongoDB
 Authentication: JWT
 
 🚀 Tasty Travel connects food lovers with restaurants for a hassle-free dining experience!
+
