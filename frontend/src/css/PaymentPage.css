@@ -1,0 +1,81 @@
+/* PaymentPage.css */
+.payment-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px); /* Adjust height to consume full screen minus footer */
+    background-color: #f4f4f4; /* Light background for contrast */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.payment-page-content {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px; /* Ensures the content isn't too wide */
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.payment-page-content h2 {
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.payment-page-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.payment-page-content p strong {
+    color: #333;
+}
+
+.payment-btn {
+    background-color: #ffc107; /* Theme color */
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.payment-btn:hover {
+    background-color: #e0a800; /* Darker shade on hover */
+}
+
+.payment-btn:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 768px) {
+    .payment-page-content {
+        padding: 30px;
+        max-width: 90%;
+    }
+
+    .payment-page-content h2 {
+        font-size: 24px;
+    }
+
+    .payment-page-content p {
+        font-size: 16px;
+    }
+
+    .payment-btn {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+}

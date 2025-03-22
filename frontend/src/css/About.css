@@ -1,0 +1,92 @@
+/* General Styling */
+.about-section {
+    background-color: #fff3cd; /* Soft yellow background for a warm, inviting feel */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.about-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffc107; /* Theme color */
+    margin-bottom: 30px;
+}
+
+/* Intro Paragraph */
+.about-intro {
+    font-size: 1.25rem;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+/* Subheadings */
+.about-section h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+    color: #ffc107; /* Theme color */
+    font-weight: bold;
+}
+
+/* Paragraphs */
+.about-section p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #4a4a4a;
+}
+
+/* Unordered List */
+.about-section ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.about-section ul li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #070a0d;
+}
+
+/* Thank You Message */
+.thank-you {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffc107; /* Theme color */
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Hover Effects for Links */
+.about-section a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+.about-section a:hover {
+    color: #d39e00;
+    transform: scale(1.05);
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .about-section {
+        padding: 20px;
+    }
+
+    .about-section h1 {
+        font-size: 2rem;
+    }
+
+    .about-section h2 {
+        font-size: 1.75rem;
+    }
+
+    .about-intro,
+    .about-section p,
+    .about-section ul li {
+        font-size: 1rem;
+    }
+}
